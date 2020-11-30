@@ -1,0 +1,16 @@
+package com.gjf.servicebase.exceptionhandler;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class GuliException extends RuntimeException {
+    private Integer code;
+    /*状态吗*/
+    private String msg;
+    /*异常信息*/
+
+}
