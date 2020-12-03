@@ -1,25 +1,25 @@
-2020-12-01 13:24:28.433 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.21.Final
-2020-12-01 13:24:29.638 [main] INFO  com.gjf.eduservice.EduApplication - Starting EduApplication on AUTOBVT-PAN2K75 with PID 16952 (E:\idea workspace\guli-master-parent\service\service-edu\target\classes started by Administrator in E:\idea workspace\guli-master-parent)
-2020-12-01 13:24:29.642 [main] INFO  com.gjf.eduservice.EduApplication - The following profiles are active: dev
-2020-12-01 13:24:35.024 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-12-01 13:24:35.053 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-12-01 13:24:35.206 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 Redis repository interfaces.
-2020-12-01 13:24:39.342 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
-2020-12-01 13:24:39.397 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2020-12-01 13:24:39.398 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2020-12-01 13:24:39.398 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
-2020-12-01 13:24:39.798 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2020-12-01 13:24:39.799 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 9634 ms
-2020-12-01 13:24:40.621 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2020-12-01 13:24:43.187 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2020-12-01 13:24:45.994 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2020-12-01 13:24:46.312 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-01 13:24:49.708 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2020-12-01 13:24:49.775 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2020-12-01 13:24:49.852 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2020-12-01 13:24:50.280 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2020-12-01 13:24:50.349 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
-2020-12-01 13:24:50.355 [main] INFO  com.gjf.eduservice.EduApplication - Started EduApplication in 25.765 seconds (JVM running for 32.352)
-2020-12-01 13:24:53.325 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-01 13:24:53.325 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2020-12-01 13:24:53.352 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 27 ms
+2020-12-02 12:18:28.765 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.21.Final
+2020-12-02 12:18:29.658 [main] INFO  com.gjf.eduservice.EduApplication - Starting EduApplication on AUTOBVT-PAN2K75 with PID 8640 (E:\idea workspace\guli-master-parent\service\service-edu\target\classes started by Administrator in E:\idea workspace\guli-master-parent)
+2020-12-02 12:18:29.661 [main] INFO  com.gjf.eduservice.EduApplication - The following profiles are active: dev
+2020-12-02 12:18:58.199 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-12-02 12:18:58.384 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-12-02 12:18:59.291 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 368ms. Found 0 Redis repository interfaces.
+2020-12-02 12:19:06.313 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-12-02 12:19:06.608 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-12-02 12:19:06.609 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-02 12:19:06.610 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-02 12:19:08.272 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-02 12:19:08.273 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 38048 ms
+2020-12-02 12:19:12.949 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-12-02 12:19:17.896 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-12-02 12:19:24.109 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-02 12:19:25.603 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-02 12:19:35.018 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-02 12:19:35.269 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-02 12:19:35.703 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-02 12:19:37.471 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-12-02 12:19:37.834 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-12-02 12:19:37.840 [main] INFO  com.gjf.eduservice.EduApplication - Started EduApplication in 77.283 seconds (JVM running for 86.565)
+2020-12-02 12:21:29.648 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-02 12:21:29.649 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-02 12:21:29.685 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 36 ms
