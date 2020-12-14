@@ -1,7 +1,7 @@
 package com.gjf.eduservice.service;
 
-import com.gjf.eduservice.entity.EduChapter;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.gjf.eduservice.entity.EduChapter;
 import com.gjf.eduservice.entity.chapter.ChapterVo;
 
 import java.util.List;
@@ -20,4 +20,7 @@ public interface EduChapterService extends IService<EduChapter> {
 
     //删除章节的方法
     boolean deleteChapter(String chapterId);
+
+    //2 根据课程id删除章节
+    void removeChapterByCourseId(String courseId);
 }

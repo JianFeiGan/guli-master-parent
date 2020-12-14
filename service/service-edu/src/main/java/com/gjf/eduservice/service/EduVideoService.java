@@ -1,7 +1,7 @@
 package com.gjf.eduservice.service;
 
-import com.gjf.eduservice.entity.EduVideo;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.gjf.eduservice.entity.EduVideo;
 
 /**
  * <p>
@@ -12,5 +12,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2020-03-02
  */
 public interface EduVideoService extends IService<EduVideo> {
+    //1 根据课程id删除小节
+    void removeVideoByCourseId(String courseId);
 
 }

@@ -15,6 +15,11 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
+
+
+
+
+
 #    #mybatis日志
 #mybatis-plus:
 #  configuration:
@@ -24,3 +29,6 @@ spring:
 #logging:
 #  level:
 #   root: info
+    #mapper xml文件的路径
+mybatis-plus:
+  mapper-locations: classpath:com/gjf/eduservice/mapper/xml/*.xml
